@@ -29,11 +29,11 @@ def wish():
     hour= int(datetime.datetime.now().hour)
     tt= datetime.datetime.now().strftime('%I:%M %p')
     if hour >= 0 and hour<12:
-        speak(f"good morning sarah. I am virtual assistant isis. Its {tt}. How may i help you")
+        speak(f"good morning Ritesh. I am virtual assistant isis. Its {tt}. How may i help you")
     elif hour>=12 and hour<18:
-        speak(f"good afternoon sarah. I am virtual assistant isis. Its {tt}. How may i help you")
+        speak(f"good afternoon Ritesh. I am virtual assistant isis. Its {tt}. How may i help you")
     else:
-        speak(f"good evening sarah. I am virtual assistant isis. Its {tt}. How may i help you")
+        speak(f"good evening Ritesh. I am virtual assistant isis. Its {tt}. How may i help you")
 
 #audio to text
 def takecom():
